@@ -7,6 +7,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "External", "External", "{B0
 EndProject
 Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "PrimaryService", "PrimaryService\PrimaryService.vbproj", "{15138FF6-A308-4825-8D46-D6E24BF031E6}"
 EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "SecondaryService", "SecondaryService\SecondaryService.vbproj", "{3D084598-EF23-4F73-AC0D-403B1430D58C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,11 +19,16 @@ Global
 		{15138FF6-A308-4825-8D46-D6E24BF031E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{15138FF6-A308-4825-8D46-D6E24BF031E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{15138FF6-A308-4825-8D46-D6E24BF031E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D084598-EF23-4F73-AC0D-403B1430D58C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D084598-EF23-4F73-AC0D-403B1430D58C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D084598-EF23-4F73-AC0D-403B1430D58C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D084598-EF23-4F73-AC0D-403B1430D58C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{15138FF6-A308-4825-8D46-D6E24BF031E6} = {B00EC9DB-9720-4B78-BF85-91052D5F7D1D}
+		{3D084598-EF23-4F73-AC0D-403B1430D58C} = {B00EC9DB-9720-4B78-BF85-91052D5F7D1D}
 	EndGlobalSection
 EndGlobal

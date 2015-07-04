@@ -8,11 +8,11 @@
     </ProductVersion>
     <SchemaVersion>
     </SchemaVersion>
-    <ProjectGuid>{15138FF6-A308-4825-8D46-D6E24BF031E6}</ProjectGuid>
+    <ProjectGuid>{3D084598-EF23-4F73-AC0D-403B1430D58C}</ProjectGuid>
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{F184B08F-C81C-45F6-A57F-5ABD9991F28F}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
-    <RootNamespace>PrimaryService</RootNamespace>
-    <AssemblyName>PrimaryService</AssemblyName>
+    <RootNamespace>SecondaryService</RootNamespace>
+    <AssemblyName>SecondaryService</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <WcfConfigValidationEnabled>True</WcfConfigValidationEnabled>
     <UseIISExpress>true</UseIISExpress>
@@ -27,7 +27,7 @@
     <DefineDebug>true</DefineDebug>
     <DefineTrace>true</DefineTrace>
     <OutputPath>bin\</OutputPath>
-    <DocumentationFile>PrimaryService.xml</DocumentationFile>
+    <DocumentationFile>SecondaryService.xml</DocumentationFile>
     <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
@@ -36,7 +36,7 @@
     <DefineTrace>true</DefineTrace>
     <Optimize>true</Optimize>
     <OutputPath>bin\</OutputPath>
-    <DocumentationFile>PrimaryService.xml</DocumentationFile>
+    <DocumentationFile>SecondaryService.xml</DocumentationFile>
     <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
   </PropertyGroup>
   <ItemGroup>
@@ -85,14 +85,14 @@
     <Import Include="System.Web.UI.HtmlControls" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="FirstService.svc" />
+    <Content Include="SecondService.svc" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="FirstService.svc.vb">
-      <DependentUpon>FirstService.svc</DependentUpon>
+    <Compile Include="SecondService.svc.vb">
+      <DependentUpon>SecondService.svc</DependentUpon>
     </Compile>
-    <Compile Include="IFirstService.vb" />
+    <Compile Include="ISecondService.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -162,9 +162,9 @@
         <WebProjectProperties>
           <UseIIS>True</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>2216</DevelopmentServerPort>
+          <DevelopmentServerPort>4265</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost:2216/</IISUrl>
+          <IISUrl>http://localhost:4265/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>
