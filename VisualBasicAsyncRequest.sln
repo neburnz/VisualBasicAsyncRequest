@@ -9,6 +9,10 @@ Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "PrimaryService", "PrimarySe
 EndProject
 Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "SecondaryService", "SecondaryService\SecondaryService.vbproj", "{3D084598-EF23-4F73-AC0D-403B1430D58C}"
 EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "LogicLibrary", "LogicLibrary\LogicLibrary.vbproj", "{93669EC8-770D-43F9-A3EA-E4F1B3C56611}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Logic", "Logic", "{35E3B799-8007-4DFC-89DF-401176839074}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,6 +27,10 @@ Global
 		{3D084598-EF23-4F73-AC0D-403B1430D58C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3D084598-EF23-4F73-AC0D-403B1430D58C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3D084598-EF23-4F73-AC0D-403B1430D58C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93669EC8-770D-43F9-A3EA-E4F1B3C56611}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93669EC8-770D-43F9-A3EA-E4F1B3C56611}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93669EC8-770D-43F9-A3EA-E4F1B3C56611}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93669EC8-770D-43F9-A3EA-E4F1B3C56611}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -30,5 +38,6 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{15138FF6-A308-4825-8D46-D6E24BF031E6} = {B00EC9DB-9720-4B78-BF85-91052D5F7D1D}
 		{3D084598-EF23-4F73-AC0D-403B1430D58C} = {B00EC9DB-9720-4B78-BF85-91052D5F7D1D}
+		{93669EC8-770D-43F9-A3EA-E4F1B3C56611} = {35E3B799-8007-4DFC-89DF-401176839074}
 	EndGlobalSection
 EndGlobal
